@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman';
+    line-height: 1.2;  
+    background-color: #fff;
+    color: #333333;  
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+
+  section {
+      width: 28%;
+      border: 1px solid #333;
+      border-radius: 5px;
+      padding: 10px;
+  }
+
+  section > h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .flex {
+      display: flex;
+      justify-content: space-between;
+  }
